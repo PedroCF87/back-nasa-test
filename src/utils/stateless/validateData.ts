@@ -12,7 +12,7 @@ export const validateData = (data: string): Boolean => {
         let validFile = true
 
         lines.forEach(line => {
-          if (linesCount === 0 && line.length !== 3) validFile = false
+          if (linesCount === 0 && line.length < 3) validFile = false
           else if (linesCount !== 0 && linesCount%2 === 1 && line !== '' && line.length < 5) validFile = false
           else if (linesCount !== 0 && linesCount%2 === 0 && line !== '' && line.length === 0) validFile = false
           linesCount++
