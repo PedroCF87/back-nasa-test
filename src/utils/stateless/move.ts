@@ -21,7 +21,7 @@ export const move = (direction: string, x: string, y: string, maxWidth: string, 
             newX = (parseInt(x)-1).toString()
         }
 
-        return { success: true, x: newX, y: newY }
+        return { success: true, message: '', x: newX, y: newY }
         
     } catch (e) {
       return { success: false, ...errors.invalidData }

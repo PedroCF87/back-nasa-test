@@ -30,7 +30,7 @@ export const errors = {
     },
     crashError: {
         code: 8,
-        message: 'Erro de movimento. O rover teria saído da grade, mas o sistema evitou maiores danos.'
+        message: 'Erro de movimento.\nUm dos rovers teria saído da grade, mas o sistema evitou maiores danos.'
     },
     proccessError: {
         code: 9,
