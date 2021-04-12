@@ -1,0 +1,6 @@
+export * from './IExtractedData'
+export * from './IErrorExtractDataReturn'
+export * from './IErrorProcessedDataReturn'
+export * from './IExtractedContentData'
+export * from './IProcessedData'
+export * from './IFormatedRoversData'
